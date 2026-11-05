@@ -1,0 +1,87 @@
+<! DOCTYPE html>
+<html>
+  <head>
+    <title>ShopEase - nile Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="home-page">
+    <section class="hero">
+      <div class="hero-content">
+        <h1 id="heading"><i>Discover Amazing Products</i></h1>
+        <p id="paragraph">
+          Shop your favourite products at affordable prices. Quality products,
+          great deals and fast delivery.
+        </p>
+        <a href="#products" class="btn">Shop Now</a>
+      </div>
+      <button id="back" onclick="window.location.href = 'index.html'">
+        Back
+      </button>
+    </section>
+    <section id="categories" class="categories">
+      <input type="text" placeholder="Search products..." id="searchbar" />
+      <button id="search-button">🔎</button>
+      <h2>Our Categories</h2>
+
+      <div class="category-container">
+        <button class="buttonhomes">
+          <div class="category">
+            👕👕
+            <h3>Fashion</h3>
+          </div>
+        </button>
+        <button class="buttonhomes">
+          <div class="category">
+            💻💻
+            <h3>Electronics</h3>
+          </div>
+        </button>
+        <button class="buttonhomes">
+          <div class="category">
+            ⌚⌚
+            <h3>Accessories</h3>
+          </div>
+        </button>
+        <button class="buttonhomes">
+          <div class="category">
+            🏠🏠
+            <h3>Home Items</h3>
+          </div>
+        </button>
+      </div>
+    </section>
+    <br />
+
+    <section id="products" class="products">
+      <h2 id="Featured">Featured Products</h2>
+       <div class="cart-wrapper">
+
+  <button id="cart-icon">
+    🛒
+    <span id="cartitems">0</span>
+  </button>
+
+  <div id="dropdown" class="dropdown">
+     <button id = "removedropdown">✖</button>
+
+    <h3>My Shopping Cart</h3>
+
+    <div id="cart-list">
+    </div>
+
+  </div>
+
+</div> 
+      <div class="product-container"></div>
+    </section>
+
+    <footer id="contact">
+      <h2>ShopEase</h2>
+      <p>Your favourite online shopping destination.</p>
+      <p>Email: nileriver shopping.com</p>
+      <p>&copy; 2026 ShopEase. All Rights Reserved.</p>
+    </footer>
+    <script src="javascript.js"></script>
+  </body>
+</html>

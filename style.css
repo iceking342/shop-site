@@ -1,0 +1,367 @@
+.body1 {
+  background-image: url("background.jpg");
+}
+button {
+  display: flexbox;
+  justify-content: flex-centre;
+}
+h1 {
+  color: red;
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 25px;
+}
+
+.container {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 30px;
+}
+#explore {
+  bottom: 180px;
+  left: 40%;
+  display: flexbox;
+  position: fixed;
+  height: 70px;
+  width: 180px;
+  border: none;
+  border-radius: 30px;
+  color: whitesmoke;
+  background-color: rgb(5, 39, 28);
+  align-self: center;
+}
+#explore:hover {
+  bottom: 180px;
+  left: 40%;
+  display: flexbox;
+  position: fixed;
+  height: 70px;
+  width: 185px;
+  border: none;
+  border-radius: 30px;
+  color: whitesmoke;
+  background-color: rgb(25, 87, 66);
+  align-self: center;
+}
+.box left {
+  bottom: 180px;
+  left: 60%;
+  display: flexbox;
+  position: fixed;
+  height: 800px;
+  width: 600px;
+  border: none;
+  border-radius: 30px;
+  color: whitesmoke;
+  background-color: rgb(27, 92, 114);
+  align-self: center;
+}
+#join {
+  bottom: 100px;
+  left: 40%;
+  display: flexbox;
+  align-items: center;
+  position: fixed;
+  background-color: rgb(24, 84, 107);
+  color: white;
+  height: 40px;
+  width: 185px;
+  border: none;
+  border-color: blue;
+  border-radius: 25px;
+  align-self: center;
+}
+#join:hover {
+  bottom: 100px;
+  left: 40%;
+  display: flexbox;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(24, 84, 107);
+  color: white;
+  height: 48spx;
+  width: 185px;
+  border: none;
+  border-color: blue;
+  border-radius: 25px;
+  align-self: center;
+}
+#search {
+  width: 800px;
+  height: 30px;
+  background-color: grey;
+  color: blanchedalmond;
+}
+#body {
+  min-height: 1000px;
+  border: 9px solid yellowgreen;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.category-container {
+  background-color: darkslategray;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.home-page {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(270deg,#172424,#B026FF,#976697,#3a6c7c,#1f4d17);
+  background-size: 800% 800%;
+  animation: glowingBackground 15s ease infinite;
+}
+
+@keyframes glowingBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.buttonhomes {
+  background-color: rgb(119, 70, 119);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  height: 100px;
+  width: 200px;
+}
+.buttonhomes:hover {
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  height: 110px;
+  width: 210px;
+}
+#addtocart {
+  background-color: rgb(119, 70, 119);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+}
+#products {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+  min-height: 300px;
+  border: 5px solid rgb(60, 63, 53);
+  /* min-width: 1000px; */
+}
+#addtocart:hover {
+  background-color: yellowgreen;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  height: 53px;
+  width: 154px;
+}
+.products-container {
+  color: white;
+  background-color: grey;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-end;
+  min-height: 300px;
+  border: 5px solid yellowgreen;
+  min-width: 1000px;
+}
+#heading {
+  text-align: center;
+  color: red;
+  font-size: 5em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-bottom: 25px;
+}
+#paragraph {
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#searchbar {
+  width: 400px;
+  height: 20px;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+#search-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 50px;
+}
+#search-button:hover {
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 60px;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+#back {
+  bottom: 180px;
+  left: 90%;
+  display: flexbox;
+  align-items: center;
+  /* position: fixed; */
+  background-color: rgb(24, 84, 107);
+  color: white;
+  height: 40px;
+  width: 70px;
+  border: none;
+  border-color: yellowgreen;
+  border-radius: 25px;
+  align-self: flex-start;
+}
+#back :hover {
+  bottom: 180px;
+  left: 90%;
+  display: flexbox;
+  align-items: center;
+  /* position: fixed; */
+  background-color: yellow;
+  color: white;
+  height: 42px;
+  width: 72px;
+  border: none;
+  border-color: yellowgreen;
+  border-radius: 25px;
+  align-self: flex-start;
+}
+img{
+    height:100px;
+    width:100px;
+}
+.cart-btn{
+    background-color: rebeccapurple;
+    height:30px;
+    width:90px;
+    border:none;
+    border-radius: 8px;
+}
+.cart-btn:hover{
+    background-color: rgb(110, 138, 54);
+    height:32px;
+    width:92px
+}
+#cat{
+  color: yellow;
+  background-color: aqua;
+  font-size: 20px;
+  height:60px;
+  width: 90px;
+  border-radius: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+#removeitem {
+  height: 25px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: #4caf50;
+}
+#removeitem:hover{
+  height: 26px;
+  width: 81x;
+  border-radius: 10px;
+  background-color: #2e8a31;
+}
+#Featured{
+  color: rgb(7, 3, 3);
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dropdown{
+  display:relative;
+  height:100%;
+  width:30%;
+  top:0;
+  right:0;
+}
+/* Cart position */
+.cart-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  z-index: 1000;
+}
+
+/* Cart button */
+#cart-icon {
+  background-color: white;
+  border: none;
+  padding: 12px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Cart number */
+#cartitems {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 8px;
+  font-size: 14px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 55px;
+  right: 0;
+  width: 280px;
+  height: 500px;;
+  background-color: rgb(4, 41, 5);
+  color: white;
+  padding: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dropdown.show {
+  display: block;
+}
+#removedropdown{
+  color:white;
+  background-color: aqua;
+  border-radius: 50%;
+}
