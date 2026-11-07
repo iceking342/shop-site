@@ -165,7 +165,7 @@ function displayCart() {
       cartItem.product.name +
       "     ksh " +
       cartItem.product.price +
-      " quantity" +
+      "  quantity " +
       cartItem.quantity;
     let removeBtn = document.createElement("button");
     removeBtn.textContent = "remove";

@@ -44,6 +44,7 @@ h1 {
   color: whitesmoke;
   background-color: rgb(25, 87, 66);
   align-self: center;
+  font-size: larger;
 }
 .box left {
   bottom: 180px;
@@ -311,11 +312,10 @@ img{
 .dropdown{
   display:relative;
   height:100%;
-  width:30%;
+  width:500px;
   top:0;
   right:0;
 }
-/* Cart position */
 .cart-wrapper {
   position: fixed;
   top: 20px;
@@ -323,7 +323,6 @@ img{
   z-index: 1000;
 }
 
-/* Cart button */
 #cart-icon {
   background-color: white;
   border: none;
@@ -333,7 +332,6 @@ img{
   border-radius: 10px;
 }
 
-/* Cart number */
 #cartitems {
   background-color: red;
   color: white;
@@ -359,6 +357,7 @@ img{
 
 .dropdown.show {
   display: block;
+  color: yellowgreen;
 }
 #removedropdown{
   color:white;
